@@ -7,11 +7,12 @@ const [categories, setCategories] = useState(['One Punch','Samurai X','Dragon Ba
 
 const handleAdd = () => {
 setCategories([...categories,'Sailor Moon'])
+
 }
   return <> 
   <h2>GitExpertApp</h2> 
   <hr/> 
-  <button onClik={handleAdd}>Agregar</button>
+  <button onClick={ handleAdd }>Agregar</button>
 
 
   <ol>

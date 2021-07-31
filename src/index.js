@@ -10,6 +10,3 @@ ReactDOM.render(
 
 
 
-// gifexpertApp 
-// <h2>gifexpertapp<h2>
-// <hr> 
