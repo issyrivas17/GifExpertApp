@@ -4,8 +4,8 @@ import { GifGrid } from './components/GifGrid';
 
 const GifExpertApp = () => {  
 
-const [categories, setCategories] = useState(['shingeki no kyojin']); 
-
+const [categories, setCategories] = useState(['One Punch']); 
+ 
 
   return <> 
   <h2>GitExpertApp</h2> 
