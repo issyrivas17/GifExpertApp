@@ -3,11 +3,36 @@
 
 } 
 body{
-  padding: 60px;
+  padding: 60px; 
+  background: linear-gradient(#833ab4,#fd1d1d,#fcb045)
 }
 
 input{
   color: grey; 
   font-size: 1.2 rem;
   width: 100%;
+} 
+
+.card-grid {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.card{
+  align-content: center;
+  border: 1px solid grey;
+  border: radius 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden; 
+} 
+
+.card p {
+  padding: 5px;
+  text-aling: center; 
+} 
+
+.card img {
+  max-height: 170px; 
 }
