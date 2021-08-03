@@ -4,7 +4,7 @@
 } 
 body{
   padding: 60px; 
-  background: linear-gradient(#833ab4,#fd1d1d,#fcb045)
+  background: linear-gradient(#0054e3,#ffffff,#020024)
 }
 
 input{
@@ -35,4 +35,5 @@ input{
 
 .card img {
   max-height: 170px; 
-}
+} 
+

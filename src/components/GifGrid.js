@@ -10,8 +10,8 @@
 
             return (
             <>  
-                <h3>{category}</h3>
-                {loading && <p>loading</p>}  
+                <h3 className="animate__wobble">{category}</h3>
+                {loading && <p className="animate__flash"loading></p>}  
                 <div className = 'card-grid'>
             
                 {

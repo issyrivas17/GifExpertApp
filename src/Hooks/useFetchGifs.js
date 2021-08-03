@@ -12,13 +12,11 @@ const [state, setstate] = useState(
     useEffect (() => { 
      getGifs(category).then (img => {
 
-      setTimeout(() => {
-
         setstate ({
             data:img,
             loading : false
         })
-      },3000)
+      
      })
      
 
