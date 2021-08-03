@@ -3,23 +3,25 @@
     import {GifGridItem} from '../components/GifGridItem'
 
 
-    export const GifGrid = ({category}) => {
+        export const GifGrid = ({category}) => {
 
-    const {data,loanding} = useFetchGifs(category); 
+        const {data:images,loading } =useFetchGifs(category); 
 
-        return (
-        <>  
-            <h3>{category}</h3>
-           {loanding && <p>loanding</p>} 
+
+            return (
+            <>  
+                <h3>{category}</h3>
+                {loading && <p>loading</p>}  
+                <div className = 'card-grid'>
             
-
-            <div className = 'card-grid'>
-            
-        {
-    data.map (img => (
-        <GifGridItem key= {img.id}{... img} />))
-    }
-            </div> 
-            </>
-        )
-    }
+                {
+            images.map (img => (
+                <GifGridItem 
+                key={img.id}
+                {... img} />
+                ))
+            }
+                    </div> 
+                    </>
+                )
+        }
