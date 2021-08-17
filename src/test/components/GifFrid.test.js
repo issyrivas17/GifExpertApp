@@ -1,5 +1,5 @@
 import { shallowToJson } from "enzyme-to-json"; 
-import {GifGridItem}  from './components/GifGridItem' 
+import {GifGridItem}  from '../../components/GifGridItem'
 import React from 'react' 
 
 
