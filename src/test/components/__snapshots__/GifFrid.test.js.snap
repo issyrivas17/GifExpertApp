@@ -1,3 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Pruebas en <GifGridItem/> Debe de mostrar el componente correctamente 1`] = `null`;
+
+exports[`Pruebas en <GifGridItem/> Debe de tener un parrafo con el title 1`] = `hola`;
